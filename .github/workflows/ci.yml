@@ -20,5 +20,8 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
+      - name: Donner les droits d'exécution   # ← étape ajoutée
+        run: chmod +x mvnw
+
       - name: Compiler et tester
         run: ./mvnw test
