@@ -89,6 +89,8 @@ curl -X DELETE http://localhost:8080/api/tasks/1
 
 ---
 
+![CI](https://github.com/TON_USERNAME/GestionTask/actions/workflows/ci.yml/badge.svg)
+
 ## Auteure
 **Rouguiyatou Thiam** — Ingénieure Développeuse Java EE  
 [sendguiya@gmail.com](mailto:sendguiya@gmail.com)
